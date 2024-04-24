@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import ResponsiveAppBar from './navbar/Navbar';
+import Pics from './pictures/Pics';
 import Welcome from './welcome/Welcome';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <ResponsiveAppBar/>
       <Welcome/>
+      <Pics/>
     </div>
   );
 }
