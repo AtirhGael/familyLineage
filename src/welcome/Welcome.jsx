@@ -1,12 +1,57 @@
 import React from 'react';
-// import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-
+import Tree from 'react-d3-tree';
+import orgChart from '../constant/data/data';
+import './index.css'
 const img1 = require('../constant/images/family.png')
+
+
+const test = {
+    shape: "rect",
+    shapeProps: {
+      width: 10,
+      height: 10,
+      x: -20,
+      y: 20,
+      stroke: "#2F80ED"
+    }
+  };
+
+
+class NodeLabel extends React.PureComponent {
+    render() {
+      const { className, nodeData } = this.props;
+      return (
+        <div
+          className={className}
+          style={{
+            background: "#ffffff",
+            height: "100px",
+            borderTop: "2px solid #2F80ED",
+            textAlign: "center",
+            // position: "fixed",
+            zIndex: "1000",
+            // left: "-10px",
+            boxShadow: "0px 10px 10px rgba(0, 0, 0, 0.1)",
+            padding: "5px 0",
+            borderRadius: "100px"
+          }}
+        >
+          <p>Name: Rahul</p>
+          <p>Role: General Manager</p>
+          <img src= {require("../constant/images/9.jpg")} alt='imagename' style={{height:25,width:30}}/>
+  
+          {nodeData.name}
+        </div>
+      );
+    }
+  }
+  
 
 const Welcome = () => {
   return (
+    <>
     <Grid maxWidth={'80%'} margin={'auto'}>
         <Grid container spacing={2} sx={{justifyContent:'center',alignItems:"center"}}  >
             <Grid item xs={12} sm={12} md={12} lg={6} >
@@ -32,6 +77,29 @@ const Welcome = () => {
         </div>
 
     </Grid>
+        <div id="treeWrapper" style={{ width: "100%", height: "100vh" }} className='appp'>
+        <Tree
+          data={orgChart}
+        //   nodeSvgShape={svgSquare}
+        //   nodeSvgShape={test}
+          pathFunc="step"
+          separation={{ siblings: 2, nonSiblings: 2 }}
+          orientation="vertical"
+          translate={{ x: 900, y: 100 }}
+          allowForeignObjects={true}
+          nodeLabelComponent={{
+            render: <NodeLabel className="myLabelComponentInSvg" />,
+            foreignObjectWrapper: {
+              width: 220,
+              height: 200,
+              y: -50,
+              x: -100
+            }
+          }}
+          initialDepth={0.02}
+        />
+      </div>
+    </>
   );
 };
 
