@@ -82,6 +82,7 @@ const Welcome = () => {
           data={orgChart}
         //   nodeSvgShape={svgSquare}
         //   nodeSvgShape={test}
+        onNodeClick={()=>console.log('hello world')}
           pathFunc="step"
           separation={{ siblings: 2, nonSiblings: 2 }}
           orientation="vertical"
