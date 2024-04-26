@@ -1,49 +1,38 @@
-import React from 'react';
-import Grid from '@mui/material/Grid';
-import Lightbox from 'yet-another-react-lightbox'; // Update import statement
-import "yet-another-react-lightbox/styles.css" // Correct import for CSS styles
-import PhotoAlbum from 'react-photo-album';
-import photos from './Pictures'
+import React, { useState } from 'react';
+import { Grid, Card, CardMedia } from '@mui/material';
+
+
 
 function Pics() {
-    const [open, setOpen] = React.useState(false);
-  
+  const [images, setImages] = useState([
+    require("../constant/images/2.jpg"),
+    require("../constant/images/8.jpg"),
+    require("../constant/images/gael.jpg"),
+    require("../constant/images/4.jpg"),
+    require("../constant/images/gael.jpg"),
+    require("../constant/images/5.jpg"),
+    require("../constant/images/7.jpg"),
+    require("../constant/images/8.jpg"),
+    require("../constant/images/9.jpg"),
+    // Add more image URLs as needed
+  ]);
+
    
   return (
     <Grid container maxWidth={'80%'} margin={'auto'}>
-        <div className='text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white'>
-            Pictures
+        <div className='text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white py-10'>
+            Pictures Gallery
         </div>
 
-        <Grid container>
-        <Grid item xs={12} sm={12} md={8} lg={12}>
-            <PhotoAlbum onClick={() => setOpen(true)} layout="rows" photos={photos} />
-        </Grid>
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        // animation={}
-        slides={[
-          {
-            src: require("../constant/images/2.jpg"),
-            alt: "image 1",
-            width: 3840,
-            height: 2560,
-            srcSet: [
-              { src: require("../constant/images/2.jpg"), width: 320, height: 213 },
-              { src: require("../constant/images/2.jpg"), width: 640, height: 427 },
-              { src: require("../constant/images/2.jpg"), width: 1200, height: 800 },
-              { src: require("../constant/images/2.jpg"), width: 2048, height: 1365 },
-              { src: require("../constant/images/2.jpg"), width: 3840, height: 2560 },
-            ],
-          },
-          // ...
-        ]}
-      />
-                
-        </Grid>
-        <div>
-            hello world
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {images.map((image, index) => (
+            <div key={index} className="relative">
+              <img src={image} alt={`Image ${index + 1}`} className="w-full h-auto" />
+              <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100">
+                <p className="text-white">Image {index + 1}</p>
+              </div>
+            </div>
+          ))}
         </div>
     </Grid>
   )

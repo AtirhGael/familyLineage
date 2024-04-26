@@ -10,7 +10,7 @@ const orgChart = [
       },
       children: [
         {
-          name: "Avadhoot",
+          name: "Suh Alphonse",
           attributes: {
             keyA: "val A",
             keyB: "val B",
@@ -18,26 +18,43 @@ const orgChart = [
           },
           children: [
             {
-              name: "Richard"
+              name: "Atirh Gael"
             },
             {
-              name: "Constantine",
-              children: [
-                {
-                  name: "Mia"
-                }
-              ]
+              name: "Jeniffer",
+              // children: [
+              //   {
+              //     name: "Mia"
+              //   }
+              // ]
             },
             {
-              name: "Daniel"
+              name: "Ngwe Love-Elsa"
+            },
+            {
+              name: "Micheal perry"
             }
           ]
         },
         {
-          name: "Mia"
+          name: "Micheal perry",
+           children: [
+                {
+                  name: "Precious"
+                },
+                {
+                  name: "Fon Brice"
+                },
+                {
+                  name: "Nkante fon Noel"
+                },
+                {
+                  name: "Wise"
+                },
+              ]
         },
         {
-          name: "Varun",
+          name: "Vivian",
           attributes: {
             keyA: "val A",
             keyB: "val B",
@@ -84,7 +101,7 @@ const orgChart = [
           ]
         },
         {
-          name: "Mohit",
+          name: "Venacius",
           children: [
             {
               name: "Rohit",
@@ -121,7 +138,202 @@ const orgChart = [
               name: "Pranav"
             }
           ]
-        }
+        },
+        {
+          name: "Loveline",
+          children: [
+            {
+              name: "Rohit",
+              attributes: {
+                keyA: "val A",
+                keyB: "val B",
+                keyC: "val C"
+              },
+              children: [
+                {
+                  name: "Level 2: A",
+                  attributes: {
+                    keyA: "val A",
+                    keyB: "val B",
+                    keyC: "val C"
+                  },
+                  children: [
+                    {
+                      name: "Level 2: A",
+                      attributes: {
+                        keyA: "val A",
+                        keyB: "val B",
+                        keyC: "val C"
+                      }
+                    },
+                    {
+                      name: "Level 2: B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: "Pranav"
+            }
+          ]
+        },
+        {
+          name: "Loveline",
+          children: [
+            {
+              name: "Rohit",
+              attributes: {
+                keyA: "val A",
+                keyB: "val B",
+                keyC: "val C"
+              },
+              children: [
+                {
+                  name: "Level 2: A",
+                  attributes: {
+                    keyA: "val A",
+                    keyB: "val B",
+                    keyC: "val C"
+                  },
+                  children: [
+                    {
+                      name: "Level 2: A",
+                      attributes: {
+                        keyA: "val A",
+                        keyB: "val B",
+                        keyC: "val C"
+                      }
+                    },
+                    {
+                      name: "Level 2: B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: "Pranav"
+            }
+          ]
+        },
+        {
+          name: "Loveline",
+          children: [
+            {
+              name: "Rohit",
+              attributes: {
+                keyA: "val A",
+                keyB: "val B",
+                keyC: "val C"
+              },
+              children: [
+                {
+                  name: "Level 2: A",
+                  attributes: {
+                    keyA: "val A",
+                    keyB: "val B",
+                    keyC: "val C"
+                  },
+                  children: [
+                    {
+                      name: "Level 2: A",
+                      attributes: {
+                        keyA: "val A",
+                        keyB: "val B",
+                        keyC: "val C"
+                      }
+                    },
+                    {
+                      name: "Level 2: B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: "Pranav"
+            }
+          ]
+        },
+        {
+          name: "Loveline",
+          children: [
+            {
+              name: "Rohit",
+              attributes: {
+                keyA: "val A",
+                keyB: "val B",
+                keyC: "val C"
+              },
+              children: [
+                {
+                  name: "Level 2: A",
+                  attributes: {
+                    keyA: "val A",
+                    keyB: "val B",
+                    keyC: "val C"
+                  },
+                  children: [
+                    {
+                      name: "Level 2: A",
+                      attributes: {
+                        keyA: "val A",
+                        keyB: "val B",
+                        keyC: "val C"
+                      }
+                    },
+                    {
+                      name: "Level 2: B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: "Pranav"
+            }
+          ]
+        },
+        {
+          name: "Loveline",
+          children: [
+            {
+              name: "Rohit",
+              attributes: {
+                keyA: "val A",
+                keyB: "val B",
+                keyC: "val C"
+              },
+              children: [
+                {
+                  name: "Level 2: A",
+                  attributes: {
+                    keyA: "val A",
+                    keyB: "val B",
+                    keyC: "val C"
+                  },
+                  children: [
+                    {
+                      name: "Level 2: A",
+                      attributes: {
+                        keyA: "val A",
+                        keyB: "val B",
+                        keyC: "val C"
+                      }
+                    },
+                    {
+                      name: "Level 2: B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: "Pranav"
+            }
+          ]
+        },
       ]
     }
   ];

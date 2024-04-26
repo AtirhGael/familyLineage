@@ -85,7 +85,7 @@ const Welcome = () => {
         onNodeClick={()=>console.log('hello world')}
           pathFunc="step"
           separation={{ siblings: 2, nonSiblings: 2 }}
-          orientation="vertical"
+          orientation="horizontal"
           translate={{ x: 900, y: 100 }}
           allowForeignObjects={true}
           nodeLabelComponent={{
