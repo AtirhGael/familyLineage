@@ -24,16 +24,16 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import { gael, ima, img2 } from "../assets/images";
+import { gael, ima, img2, grandpa, fam1, fam10, fam11} from "../assets/images";
   
   export const navLinks = [
     {
-      id: "gallery",
-      title: "Gallery",
-    },
-    {
       id: "heritage",
       title: "Heritage",
+    },
+    {
+      id: "gallery",
+      title: "Gallery",
     },
     {
       id: "blogPost",
@@ -41,24 +41,7 @@ import { gael, ima, img2 } from "../assets/images";
     },
   ];
   
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "Mobile Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Database",
-      icon: creator,
-    },
-  ];
+
   
   const technologies = [
     {
@@ -145,8 +128,8 @@ import { gael, ima, img2 } from "../assets/images";
       image:img2,
     },
     {
-      child:'Vivian',
-      married_to:'Kelvin',
+      child:' Chi Vivian',
+      married_to:'fon Kelvin',
       image:starbucks,
       iconBg: "#383E56",
       date: "3",
@@ -180,13 +163,13 @@ import { gael, ima, img2 } from "../assets/images";
       date: "5",
       children:[
         'Neh Suh',
-        'Brice',
+        'Miracle',
       ],
       image:ima,
     },
     {
       child:'Ngetse',
-      married_to:'Henry Miki Naka',
+      married_to:'Fidelise',
       image:starbucks,
       iconBg: "#383E56",
       date: "6",
@@ -200,7 +183,7 @@ import { gael, ima, img2 } from "../assets/images";
     },
     {
       child:'Isaha Josophine',
-      married_to:'Henry Miki Naka',
+      married_to:'Kawas Eric',
       image:starbucks,
       iconBg: "#383E56",
       date: "7",
@@ -219,20 +202,20 @@ import { gael, ima, img2 } from "../assets/images";
       iconBg: "#383E56",
       date: "8",
       children:[
-        'Rabit',
-        'Crocrodi',
+        'Akwan',
+        'Dawn',
       ],
       image:ima,
     },
     {
       child:'Nji Paul',
-      married_to:'Petra',
+      married_to:'Jeanie',
       image:starbucks,
       iconBg: "#383E56",
       date: "9",
       children:[
-        'Rabit',
-        'Crocrodi',
+        'Akwan',
+        'Dawn',
       ],
       image:ima,
     },
@@ -328,7 +311,7 @@ import { gael, ima, img2 } from "../assets/images";
           color: "blue-text-gradient",
         },
       ],
-      image: gael,
+      image: grandpa,
     },
     {
       // name: "Grand pa",
@@ -337,7 +320,7 @@ import { gael, ima, img2 } from "../assets/images";
         "all parents are responsible for teaching thier children about the culture and traditions of Akum ",
       tags: [
         {
-          name: "Grand pa",
+          name: "Atirh Gael",
           color: "blue-text-gradient",
         },
       ],
@@ -355,7 +338,7 @@ import { gael, ima, img2 } from "../assets/images";
         },
        
       ],
-      image: gael,
+      image: fam1,
     },
     {
       // name: "Grand pa",
@@ -365,11 +348,11 @@ import { gael, ima, img2 } from "../assets/images";
       tags: [
         {
           name: "Grand pa",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
        
       ],
-      image: gael,
+      image: fam10,
     },
     {
       // name: "Grand pa",
@@ -379,11 +362,11 @@ import { gael, ima, img2 } from "../assets/images";
       tags: [
         {
           name: "Grand pa",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
        
       ],
-      image: gael,
+      image: fam11,
     },
   ]
 
@@ -475,4 +458,4 @@ import { gael, ima, img2 } from "../assets/images";
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects ,childrens,BlogPosts};
+  export { technologies, experiences, testimonials, projects ,childrens,BlogPosts};

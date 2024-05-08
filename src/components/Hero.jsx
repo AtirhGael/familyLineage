@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
               
         </div>
-        <div className='relative  justify-center top-[250px] hidden sm:flex max-auto flex    '>
+        <div className='relative  justify-center top-[360px] hidden sm:flex max-auto flex    '>
           <img src={family} alt='family' className='w-[40%] h-[6%] object-contain'/>
         </div>
           {/* <ComputersCanvas/> */}
