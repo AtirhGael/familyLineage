@@ -24,19 +24,20 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+import { gael, ima, img2 } from "../assets/images";
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "gallery",
+      title: "Gallery",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "heritage",
+      title: "Heritage",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "blogPost",
+      title: "BlogPost",
     },
   ];
   
@@ -126,7 +127,8 @@ import {
         'Jenifer Aileen',
         'Ngwe Love Elsa',
         'Micheal Pery'
-      ]
+      ],
+      image:img2,
     },
     {
       child:'Keneth mutsu',
@@ -139,7 +141,8 @@ import {
         'Byina',
         'Ngwe Love Elsa',
         'Micheal Pery'
-      ]
+      ],
+      image:img2,
     },
     {
       child:'Vivian',
@@ -152,7 +155,8 @@ import {
         'Brice',
         'Nuel',
         'Wise'
-      ]
+      ],
+      image:ima,
     },
     {
       child:'mustu Vencius',
@@ -165,7 +169,8 @@ import {
         'Brice',
         'Nuel',
         'Wise'
-      ]
+      ],
+      image:ima,
     },
     {
       child:'Ngwe Loveline',
@@ -176,7 +181,8 @@ import {
       children:[
         'Neh Suh',
         'Brice',
-      ]
+      ],
+      image:ima,
     },
     {
       child:'Ngetse',
@@ -189,7 +195,8 @@ import {
         'Brice',
         'Brice',
         'Brice',
-      ]
+      ],
+      image:ima,
     },
     {
       child:'Isaha Josophine',
@@ -202,7 +209,8 @@ import {
         'Brice',
         'Brice',
         'Brice',
-      ]
+      ],
+      image:ima,
     },
     {
       child:'Mungu Peter',
@@ -213,7 +221,8 @@ import {
       children:[
         'Rabit',
         'Crocrodi',
-      ]
+      ],
+      image:ima,
     },
     {
       child:'Nji Paul',
@@ -224,7 +233,8 @@ import {
       children:[
         'Rabit',
         'Crocrodi',
-      ]
+      ],
+      image:ima,
     },
 
   ]
@@ -306,6 +316,77 @@ import {
     },
   ];
   
+  const BlogPosts=[
+    {
+      // name: "Grand pa",
+      title:'culture and tradition',
+      story:
+        "all parents are responsible for teaching thier children about the culture and traditions of Akum ",
+      tags: [
+        {
+          name: "Grand pa",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: gael,
+    },
+    {
+      // name: "Grand pa",
+      title:'culture and tradition',
+      story:
+        "all parents are responsible for teaching thier children about the culture and traditions of Akum ",
+      tags: [
+        {
+          name: "Grand pa",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: gael,
+    },
+    {
+      // name: "Grand pa",
+      title:'culture and tradition',
+      story:
+        "all parents are responsible for teaching thier children about the culture and traditions of Akum ",
+      tags: [
+        {
+          name: "Grand pa",
+          color: "blue-text-gradient",
+        },
+       
+      ],
+      image: gael,
+    },
+    {
+      // name: "Grand pa",
+      title:'culture and tradition',
+      story:
+        "all parents are responsible for teaching thier children about the culture and traditions of Akum ",
+      tags: [
+        {
+          name: "Grand pa",
+          color: "blue-text-gradient",
+        },
+       
+      ],
+      image: gael,
+    },
+    {
+      // name: "Grand pa",
+      title:'culture and tradition',
+      story:
+        "all parents are responsible for teaching thier children about the culture and traditions of Akum ",
+      tags: [
+        {
+          name: "Grand pa",
+          color: "blue-text-gradient",
+        },
+       
+      ],
+      image: gael,
+    },
+  ]
+
   const projects = [
     {
       name: " Crypto Community",
@@ -394,4 +475,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects ,childrens};
+  export { services, technologies, experiences, testimonials, projects ,childrens,BlogPosts};

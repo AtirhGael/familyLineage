@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
 import { ComputersCanvas } from './canvas'
+import { family } from '../assets/images'
 
 const Hero = () => {
   return (
@@ -17,11 +18,15 @@ const Hero = () => {
             your online gateway to explore and celebrate the rich tapestry of our family's history and legacy. Whether you're a member of our extended family or a curious visitor, we invite you to embark on a journey through generations past, present, and future.
             </p>
           </div>
-
+              
+        </div>
+        <div className='relative  justify-center top-[250px] hidden sm:flex max-auto flex    '>
+          <img src={family} alt='family' className='w-[40%] h-[6%] object-contain'/>
         </div>
           {/* <ComputersCanvas/> */}
+          
           <div className='absolute xs:buttom-10 bottom-5 w-full flex justify-center item-center'>
-            <a href='#about'>
+            <a href='#heritage'>
               <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
                 <motion.div
                   animate={{

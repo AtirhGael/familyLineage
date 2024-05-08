@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import { Contact,Experience,About,Navbar,Tech,Feedbacks,StarsCanvas, Hero, Works } from "./components"
+import { Heritage,Gallery,Navbar,Feedbacks, Hero, BlogPost } from "./components"
 
 function App() {
 
@@ -11,15 +11,10 @@ function App() {
             <Navbar/>
             <Hero/>
           </div>
-          <Experience/>
-          <About/>
-          <Tech/>
-          <Works/>
-          <Feedbacks/>
-        <div className="relative z-0">
-          <Contact/>
-          {/* <StarsCanvas/> */}
-        </div>
+          <Heritage/>
+          <Gallery/>
+          <BlogPost/>
+          {/* <Feedbacks/> */}
         </div>
       </BrowserRouter>
     </>
