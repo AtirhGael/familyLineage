@@ -5,7 +5,7 @@ import { styles } from '../style'
 // import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
-import { FamilyGalery, ima, img2 } from '../assets/images'
+import { FamilyGalery } from '../assets/images'
 
 const gael = '../assets/images/gael.jpg'
 

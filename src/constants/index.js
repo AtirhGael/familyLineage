@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import { gael, ima, img2, grandpa, fam1, fam10, fam11} from "../assets/images";
+import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha} from "../assets/images";
   
   export const navLinks = [
     {
@@ -100,21 +100,30 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11} from "../assets/images";
   
   const childrens = [
     {
-      child:'Suh Alphonsius',
+      child:'Suh Alphonsius Mutsu',
       married_to:'Azie Linneth',
       image:starbucks,
       iconBg: "#383E56",
       date: "1",
       children:[
-        'Atirh Gael',
-        'Jenifer Aileen',
-        'Ngwe Love Elsa',
-        'Micheal Pery'
+        'Atirh Gael Suh',
+        'Jenifer Aileen Suh',
+        'Ngwe Love Elsa Suh',
+        'Micheal Pery Suh'
+      ],
+      spouse_siblings:[
+        'Ndifor Joseph',
+        'Mangwi Marie',
+      ],
+      spouse_parents:[
+       
+        'pa ben',
+        'mami ben',
       ],
       image:img2,
     },
     {
-      child:'Keneth mutsu',
+      child:' Fombason Kenneth Bumaha',
       married_to:'Judith',
       image:starbucks,
       iconBg: "#383E56",
@@ -125,10 +134,17 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11} from "../assets/images";
         'Ngwe Love Elsa',
         'Micheal Pery'
       ],
+      spouse_siblings:[
+        'Kingsley, Georges, Ryan',
+      ],
+      spouse_parents:[
+        'Ndifor Joseph',
+        'Mangwi Marie',
+      ],
       image:img2,
     },
     {
-      child:' Chi Vivian',
+      child:'Mangwi Vivian Chi',
       married_to:'fon Kelvin',
       image:starbucks,
       iconBg: "#383E56",
@@ -139,10 +155,17 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11} from "../assets/images";
         'Nuel',
         'Wise'
       ],
+      spouse_siblings:[
+        'Kingsley, Georges, Ryan',
+      ],
+      spouse_parents:[
+        'Ndifor Joseph',
+        'Mangwi Marie',
+      ],
       image:ima,
     },
     {
-      child:'mustu Vencius',
+      child:'Mutsu Venantius Bumaha',
       married_to:'Florence',
       image:starbucks,
       iconBg: "#383E56",
@@ -153,71 +176,132 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11} from "../assets/images";
         'Nuel',
         'Wise'
       ],
-      image:ima,
-    },
-    {
-      child:'Ngwe Loveline',
-      married_to:'Henry Miki Naka',
-      image:starbucks,
-      iconBg: "#383E56",
-      date: "5",
-      children:[
-        'Neh Suh',
-        'Miracle',
+      spouse_siblings:[
+        'Kingsley, Georges, Ryan',
+      ],
+      spouse_parents:[
+        'Ndifor Joseph',
+        'Mangwi Marie',
       ],
       image:ima,
     },
     {
-      child:'Ngetse',
-      married_to:'Fidelise',
+      child:'Sihngwe Loveline Miki-Naka',
+      married_to:'Henry Miki Naka',
+      image:mikiNaka,
+      iconBg: "#383E56",
+      date: "5",
+      children:[
+        'Mary Jane Miki Naka',
+        'Fuh Nkwanwi che',
+        'Godwill Che',
+        'Miracle Miki Naka',
+      ],
+      spouse_siblings:[
+        'Victor Naka', 
+        'Denis Naka',
+        'Linda Naka',
+        'Fidelis Naka',
+        'Grace Naka',
+        'Elvis Naka',
+        'Johnson Naka',
+      ],
+      spouse_parents:[
+        'Christopher Naka',
+        'Miki,Esther Miki',
+      ],
+      image:mikiNaka1,
+    },
+    {
+      child:'Ngatse Azhishi Bumaha',
+      married_to:'Chi Fidelis Ndikums',
       image:starbucks,
       iconBg: "#383E56",
       date: "6",
       children:[
-        'Neh Suh',
-        'Brice',
-        'Brice',
-        'Brice',
+        'Shuri Carlise Joy Ndikum',
+        'Neh Zilla Britney Ndikum',
+        'Fru Vianney Favour Ndikum',
+        'Bless Excel Ngu Ndikum',
+      ],
+      spouse_siblings:[
+        'Chi Boniface',
+        'Chifu Claudia',
+      ],
+      spouse_parents:[
+        'Sawah Beatrice chi',
       ],
       image:ima,
     },
+
+
     {
-      child:'Isaha Josophine',
+      child:'Isaha Josephine Kawas',
       married_to:'Kawas Eric',
       image:starbucks,
       iconBg: "#383E56",
       date: "7",
       children:[
-        'Neh Suh',
-        'Brice',
-        'Brice',
-        'Brice',
+        'Kawas Kandyce-Yva Ame Fangwi',
+        'Kawas Jerick-Peace Giyoh',
+        'Kawas Kendra Kwasenwi Mangwi',
+        'Kawas Katrielle Nwiyoh Lum',
       ],
-      image:ima,
+      spouse_siblings:[
+        'Kawas Lilian',
+        'Kawas Irene',
+        'Kawas Kestin',
+        'Kawas Melani',
+        'Kawas Bryan',
+      ],
+      spouse_parents:[
+        'Kawas John Giyoh',
+        'Meye Buh Prodencia',
+      ],
+      image:Isaha,
     },
+
+
     {
-      child:'Mungu Peter',
+      child:'Mungu Peter Bumaha',
       married_to:'Petra',
       image:starbucks,
       iconBg: "#383E56",
       date: "8",
       children:[
-        'Akwan',
-        'Dawn',
+        'Asher Akwan Mungu',
+        'Dawn Pascal Fondoh Mungu',
+      ],
+      spouse_siblings:[
+        'Patience Bih',
+      ],
+      spouse_parents:[
+        'Helen Neh Taku',
       ],
       image:ima,
     },
+
+
     {
-      child:'Nji Paul',
+      child:'Nji Paul Bumaha',
       married_to:'Jeanie',
-      image:starbucks,
+      image:paul,
       iconBg: "#383E56",
       date: "9",
       children:[
-        'Akwan',
-        'Dawn',
+        'Ngwe Bethany Joy Nji',
+        'Mangwineh Kyla Nji',
       ],
-      image:ima,
+      spouse_siblings:[
+        'Kingsley',
+        ' Georges', 
+        'Ryan',
+      ],
+      spouse_parents:[
+        'Ndifor Joseph',
+        'Mangwi Marie',
+      ],
+      image:paul,
     },
 
   ]

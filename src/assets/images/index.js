@@ -16,10 +16,15 @@ import fam8 from './WhatsApp Image 2024-05-08 at 12.10.38_80c0d870.jpg'
 import fam9 from './WhatsApp Image 2024-05-08 at 12.10.37_5ecd6eb6.jpg'
 import fam10 from './WhatsApp Image 2024-05-08 at 12.10.36_d4ad697d.jpg'
 import fam11 from './WhatsApp Image 2024-05-08 at 12.10.36_b03e26a0.jpg'
+import mikiNaka from './22-10-23-17-43-41-004_deco - LOVELINE MIKI NAKA.jpg'
+import mikiNaka1 from './20211223_133836 - LOVELINE MIKI NAKA.jpg'
+import mikiNaka2 from './20240804_150921 - LOVELINE MIKI NAKA.jpg'
+import paul from './IMG-20240708-WA0123 - paul Paul bumaha.jpg'
+import Isaha from './WhatsApp Image 2024-08-06 at 15.29.34_48fd1b01.jpg'
 
 
-const FamilyGalery = [gael,ima,img2,mine,three,fam1,fam2,fam3,fam4,fam5,fam6,fam11,fam10,fam9,fam8,fam7]
+export const FamilyGalery = [gael, ima, img2, three, fam1, fam2, fam3, fam4, fam5, fam6, fam11, fam10, fam9, fam8, fam7,mikiNaka,mikiNaka1,mikiNaka2]
 
 
 
-export {gael,img2,ima,mine,FamilyGalery,family,grandpa,fam1,fam10,fam11,fam2}
+export { gael, img2, ima, family, grandpa, fam1, fam10, fam11, fam2,mikiNaka,mikiNaka1,mikiNaka2,paul,Isaha }
