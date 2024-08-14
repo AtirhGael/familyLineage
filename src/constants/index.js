@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha} from "../assets/images";
+import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha, brice, suh} from "../assets/images";
   
   export const navLinks = [
     {
@@ -112,15 +112,20 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
         'Micheal Pery Suh'
       ],
       spouse_siblings:[
-        'Ndifor Joseph',
-        'Mangwi Marie',
+        'Benard Tame',
+        'Victorine Ngifor',
+        'Azie Lum Marilyn',
+        'Azie Joyce Forkam',
+        'Azie Brenda Neh',
+        'Azie Stella Ngum',
+        'Nde Divine',
       ],
       spouse_parents:[
        
-        'pa ben',
-        'mami ben',
+        'Azie Michael Bango',
+        'Ngwe Elizabeth',
       ],
-      image:img2,
+      image:suh,
     },
     {
       child:' Fombason Kenneth Bumaha',
@@ -135,34 +140,34 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
         'Micheal Pery'
       ],
       spouse_siblings:[
-        'Kingsley, Georges, Ryan',
+        '',
       ],
       spouse_parents:[
-        'Ndifor Joseph',
-        'Mangwi Marie',
+        '',
+        '',
       ],
       image:img2,
     },
     {
       child:'Mangwi Vivian Chi',
-      married_to:'fon Kelvin',
+      married_to:'Chi Kevin Fon',
       image:starbucks,
       iconBg: "#383E56",
       date: "3",
       children:[
-        'Precious',
-        'Brice',
-        'Nuel',
-        'Wise'
+        'Precious Karen Fon',
+        'Nchotu Fon Brice',
+        'Nkwenti Fon Noel',
+        'chi Kevin Fon Junior-Wise'
       ],
       spouse_siblings:[
         'Kingsley, Georges, Ryan',
       ],
       spouse_parents:[
-        'Ndifor Joseph',
-        'Mangwi Marie',
+        'Pa Chi Stanislaus',
+        'Ma Sophia Mb',
       ],
-      image:ima,
+      image:brice,
     },
     {
       child:'Mutsu Venantius Bumaha',
