@@ -23,10 +23,11 @@ import paul from './IMG-20240708-WA0123 - paul Paul bumaha.jpg'
 import Isaha from './WhatsApp Image 2024-08-06 at 15.29.34_48fd1b01.jpg'
 import brice from './IMG-20240809-WA0007~2 - Fon Brice.jpg'
 import suh from './WhatsApp Image 2024-08-14 at 08.33.10_bb54deb0.jpg'
+import Peter from './WhatsApp Image 2024-08-14 at 11.44.04_a8153c4f.jpg'
 
 
 export const FamilyGalery = [gael, ima, img2, three, fam1, fam2, fam3, fam4, fam5, fam6, fam11, fam10, fam9, fam8, fam7,mikiNaka,mikiNaka1,mikiNaka2]
 
 
 
-export { gael, img2, ima, family, grandpa, fam1, fam10, fam11, fam2,mikiNaka,mikiNaka1,mikiNaka2,paul,Isaha,brice,suh }
+export { gael, img2, ima, family, grandpa, fam1, fam10, fam11, fam2,mikiNaka,mikiNaka1,mikiNaka2,paul,Isaha,brice,suh,Peter }

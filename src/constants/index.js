@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha, brice, suh} from "../assets/images";
+import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha, brice, suh, Peter} from "../assets/images";
   
   export const navLinks = [
     {
@@ -283,7 +283,7 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
       spouse_parents:[
         'Helen Neh Taku',
       ],
-      image:ima,
+      image:Peter,
     },
 
 
