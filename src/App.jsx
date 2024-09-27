@@ -1,22 +1,23 @@
-import { BrowserRouter } from "react-router-dom"
-import { Heritage,Gallery,Navbar,Feedbacks, Hero, BlogPost } from "./components"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import Routes from "./Routes";
+import StoryPage from "./components/StoryPage";
 
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Routes/>,
+  },
+  {
+    path: "/story",
+    element: <StoryPage/>,
+  },
+]);
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <div className="relative z-0 bg-primary">
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <Navbar/>
-            <Hero/>
-          </div>
-          <Heritage/>
-          <Gallery/>
-          <BlogPost/>
-          {/* <Feedbacks/> */}
-        </div>
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </>
   )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
-import { ComputersCanvas } from './canvas'
 import { family } from '../assets/images'
 
 const Hero = () => {

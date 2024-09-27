@@ -117,8 +117,8 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
         'Azie Lum Marilyn',
         'Azie Joyce Forkam',
         'Azie Brenda Neh',
-        'Azie Stella Ngum',
-        'Nde Divine',
+        'Azie Stella Ngum',
+        'Nde Divine',
       ],
       spouse_parents:[
        
@@ -129,22 +129,23 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
     },
     {
       child:' Fombason Kenneth Bumaha',
-      married_to:'Judith',
+      married_to:'Fombason Judith',
       image:starbucks,
       iconBg: "#383E56",
       date: "2",
       children:[
-        'Juneth',
-        'Byina',
-        'Ngwe Love Elsa',
-        'Micheal Pery'
+        'Neh Juneth -Elsa fombason',
+        'Nangah Bryna Fombason',
+        'Chofor Dom-Perry Fombason',
+        'Bih Christelle-Joy Fombason',
+        'Aghanui karl_Othniel Fombason'
       ],
       spouse_siblings:[
         '',
       ],
       spouse_parents:[
-        '',
-        '',
+        'Bih Bridget Njokikang',
+        'Dominic Njokikang',
       ],
       image:img2,
     },
@@ -265,8 +266,6 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
       ],
       image:Isaha,
     },
-
-
     {
       child:'Mungu Peter Bumaha',
       married_to:'Petra',
