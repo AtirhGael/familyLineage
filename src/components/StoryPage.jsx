@@ -19,7 +19,7 @@ export default function StoryPage() {
                   <img class="mr-4 w-20 h-20 rounded-full" src={data[2]} alt="Jese Leos"/>
                     <div>
                       <a href="#" rel="author" class="text-xl text-white ">{data[3][0].name}</a>
-                      <p class="text-base text-gray-500 dark:text-gray-400">Graphic Designer, educator & CEO Flowbite</p>
+                      {/* <p class="text-base text-gray-500 dark:text-gray-400">Graphic Designer, educator & CEO Flowbite</p> */}
                       <p class="text-base text-gray-500 dark:text-gray-400"><time pubdate datetime="2022-02-08" title="February 8th, 2022">Feb. 8, 2022</time></p>
                     </div>
                 </div>
