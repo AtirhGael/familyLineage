@@ -20,7 +20,7 @@ const Gallery = () => {
       <div className='mt-20 flex flex-wrap gap-10'>
         {FamilyGalery.map((service,id)=>(
           <Tilt className='sm:w-[250px] w-full' key={id} >
-            <motion.div variants={fadeIn("right","spring",0.5*id,0.75)} 
+            <div 
             className='w-fill green-pink-gradient p-[1px] rounded-[20px] shadow-card'
             >
               <div options={{
@@ -33,7 +33,7 @@ const Gallery = () => {
                 <img src={service} alt='iconImg' className='w-[100%] h-[100%] object-contain' />
                 {/* <h3 className='text-white text=[20px]'>{service.title} </h3> */}
               </div> 
-            </motion.div>
+            </div>
           </Tilt>
         ))}
       </div>
