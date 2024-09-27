@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha, brice, suh, Peter} from "../assets/images";
+import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul, Isaha, brice, suh, Peter, doctor} from "../assets/images";
   
   export const navLinks = [
     {
@@ -147,7 +147,7 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
         'Bih Bridget Njokikang',
         'Dominic Njokikang',
       ],
-      image:img2,
+      image:grandpa,
     },
     {
       child:'Mangwi Vivian Chi',
@@ -177,19 +177,25 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
       iconBg: "#383E56",
       date: "4",
       children:[
-        'Elsa',
-        'Brice',
-        'Nuel',
-        'Wise'
+        'Flovyn-Elsa Ngalo Mutsu',
+        'Zurielle-Olga Lum Mutsu',
+        'Perry-cosmas Luti Mutsu',
+        'Teddy-Praises Mumaha Mutsu'
       ],
       spouse_siblings:[
-        'Kingsley, Georges, Ryan',
+        'Jonathan Luti Tasha',
+        'Che Henderson Tasha',
+        'Victorine Lumafor Tasha',
+        'Genevive Nega Tasha',
+        'Bridgeth Ngumazeh Tasha',
+        'Awangie Walters Tasha',
+        'Nde Chi Luti',
       ],
       spouse_parents:[
-        'Ndifor Joseph',
-        'Mangwi Marie',
+        'Lucas Luti Tasha',
+        'Martina Njung Luti',
       ],
-      image:ima,
+      image:doctor,
     },
     {
       child:'Sihngwe Loveline Miki-Naka',
@@ -237,7 +243,7 @@ import { gael, ima, img2, grandpa, fam1, fam10, fam11, mikiNaka, mikiNaka1, paul
       spouse_parents:[
         'Sawah Beatrice chi',
       ],
-      image:ima,
+      image:grandpa,
     },
 
 

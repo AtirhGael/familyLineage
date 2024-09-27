@@ -140,7 +140,7 @@ const Heritage = () => {
     {selectedImg && (
       <Hover isOpen={isModalOpen} onClose={closeModal1}>
         <h2 className="text-xl text-black text-center font-semibold mb-4"> Family Photo</h2>
-        <img src={selectedImg} style={{height:'80%',width:'95%',resize:'inline'}} />
+        <img src={selectedImg} className='w-full max-h-[500px]'/>
         <button
           onClick={closeModal1}
           className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 mt-4"
